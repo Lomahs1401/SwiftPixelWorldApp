@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		E44DA5F92B6FDAAD009E06E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DA5F82B6FDAAD009E06E8 /* AppDelegate.swift */; };
 		E44DA5FB2B6FDAAD009E06E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DA5FA2B6FDAAD009E06E8 /* SceneDelegate.swift */; };
-		E44DA5FD2B6FDAAD009E06E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DA5FC2B6FDAAD009E06E8 /* ViewController.swift */; };
+		E44DA5FD2B6FDAAD009E06E8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DA5FC2B6FDAAD009E06E8 /* WelcomeViewController.swift */; };
 		E44DA6002B6FDAAD009E06E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44DA5FE2B6FDAAD009E06E8 /* Main.storyboard */; };
 		E44DA6022B6FDAAE009E06E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E44DA6012B6FDAAE009E06E8 /* Assets.xcassets */; };
 		E44DA6052B6FDAAE009E06E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44DA6032B6FDAAE009E06E8 /* LaunchScreen.storyboard */; };
 		E44DA6102B6FDAAE009E06E8 /* PixelWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DA60F2B6FDAAE009E06E8 /* PixelWorldTests.swift */; };
 		E44DA61A2B6FDAAE009E06E8 /* PixelWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DA6192B6FDAAE009E06E8 /* PixelWorldUITests.swift */; };
 		E44DA61C2B6FDAAE009E06E8 /* PixelWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DA61B2B6FDAAE009E06E8 /* PixelWorldUITestsLaunchTests.swift */; };
+		E44DA62A2B6FE669009E06E8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DA6292B6FE669009E06E8 /* CustomButton.swift */; };
+		E44DA62E2B7012B5009E06E8 /* ChooseFactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DA62D2B7012B5009E06E8 /* ChooseFactionViewController.swift */; };
+		E44DA6302B7014C5009E06E8 /* InGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DA62F2B7014C5009E06E8 /* InGameViewController.swift */; };
+		E44DA6322B7019CC009E06E8 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DA6312B7019CC009E06E8 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		E44DA5F52B6FDAAD009E06E8 /* PixelWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44DA5F82B6FDAAD009E06E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E44DA5FA2B6FDAAD009E06E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E44DA5FC2B6FDAAD009E06E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E44DA5FC2B6FDAAD009E06E8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E44DA5FF2B6FDAAD009E06E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E44DA6012B6FDAAE009E06E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E44DA6042B6FDAAE009E06E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		E44DA6152B6FDAAE009E06E8 /* PixelWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44DA6192B6FDAAE009E06E8 /* PixelWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelWorldUITests.swift; sourceTree = "<group>"; };
 		E44DA61B2B6FDAAE009E06E8 /* PixelWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E44DA6292B6FE669009E06E8 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		E44DA62D2B7012B5009E06E8 /* ChooseFactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChooseFactionViewController.swift; path = PixelWorld/Controller/ChooseFactionViewController.swift; sourceTree = SOURCE_ROOT; };
+		E44DA62F2B7014C5009E06E8 /* InGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InGameViewController.swift; sourceTree = "<group>"; };
+		E44DA6312B7019CC009E06E8 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,11 @@
 		E44DA5F72B6FDAAD009E06E8 /* PixelWorld */ = {
 			isa = PBXGroup;
 			children = (
+				E44DA62C2B7011FB009E06E8 /* Controller */,
+				E44DA62B2B7011F3009E06E8 /* Model */,
+				E44DA6282B6FE603009E06E8 /* View */,
 				E44DA5F82B6FDAAD009E06E8 /* AppDelegate.swift */,
 				E44DA5FA2B6FDAAD009E06E8 /* SceneDelegate.swift */,
-				E44DA5FC2B6FDAAD009E06E8 /* ViewController.swift */,
 				E44DA5FE2B6FDAAD009E06E8 /* Main.storyboard */,
 				E44DA6012B6FDAAE009E06E8 /* Assets.xcassets */,
 				E44DA6032B6FDAAE009E06E8 /* LaunchScreen.storyboard */,
@@ -125,6 +135,32 @@
 				E44DA61B2B6FDAAE009E06E8 /* PixelWorldUITestsLaunchTests.swift */,
 			);
 			path = PixelWorldUITests;
+			sourceTree = "<group>";
+		};
+		E44DA6282B6FE603009E06E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E44DA6292B6FE669009E06E8 /* CustomButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E44DA62B2B7011F3009E06E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E44DA6312B7019CC009E06E8 /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E44DA62C2B7011FB009E06E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E44DA5FC2B6FDAAD009E06E8 /* WelcomeViewController.swift */,
+				E44DA62D2B7012B5009E06E8 /* ChooseFactionViewController.swift */,
+				E44DA62F2B7014C5009E06E8 /* InGameViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E44DA5FD2B6FDAAD009E06E8 /* ViewController.swift in Sources */,
+				E44DA62E2B7012B5009E06E8 /* ChooseFactionViewController.swift in Sources */,
+				E44DA62A2B6FE669009E06E8 /* CustomButton.swift in Sources */,
+				E44DA6322B7019CC009E06E8 /* Character.swift in Sources */,
+				E44DA5FD2B6FDAAD009E06E8 /* WelcomeViewController.swift in Sources */,
+				E44DA6302B7014C5009E06E8 /* InGameViewController.swift in Sources */,
 				E44DA5F92B6FDAAD009E06E8 /* AppDelegate.swift in Sources */,
 				E44DA5FB2B6FDAAD009E06E8 /* SceneDelegate.swift in Sources */,
 			);
@@ -450,6 +490,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +519,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
